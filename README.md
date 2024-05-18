@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# React Registration Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a user registration page built with React. It includes form validation and interacts with a backend API to create users. The form collects user information such as full name, contact number, email, date of birth, and password.
+![User Registration Page Screenshot]
+![image](https://github.com/hi-manss/user-registration-react-app/assets/101518009/bc746194-ea7f-4486-a4af-4b80f5471866)
+![image](https://github.com/hi-manss/user-registration-react-app/assets/101518009/72314ff7-d972-42f5-9e89-a98696a28dc5)
 
-## Available Scripts
 
-In the project directory, you can run:
+ 
+## Features
 
-### `npm start`
+- User registration form with validation
+- Real-time error feedback using React Toastify
+- Integration with backend API for user creation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Axios for HTTP requests
+- React Toastify for notifications
+- CSS for styling
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   git clone https://github.com/hi-manss/user-registration-react-app.git
+   cd registration-page
+2. **Install dependencies:**
 
-### `npm run eject`
+  '''sh
+  npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Run the application:**
+  '''sh
+  npm start
+The application will be available at http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Usage
+Fill in the registration form with your information.
+If any fields are invalid, error messages will be displayed in real-time.
+Once all fields are filled correctly, click the "Submit" button to register.
+If the registration is successful, a success message will be displayed.
+API Integration
+The registration form submits user data to a backend API endpoint for registration:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
+Method: POST
+Payload:
+ ```yaml
+{
+  "full_name": "John Doe",
+  "contact_number": "1234567890",
+  "email": "johndoe@example.com",
+  "date_of_birth": {
+    "day": "15",
+    "month": "04",
+    "year": "1990"
+  },
+  "password": "mysecretpassword"
+}
+ 
+**Usage**
+  Fill in the registration form:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  Full Name
+  Contact Number
+  Email
+  Date of Birth (Day, Month, Year)
+  Password
+  Confirm Password
+  Submit the form:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  If the form is correctly filled, a success message will be shown.
+  If there are any errors, they will be displayed on the form and a toast notification will be shown.
+  Cancel the form:
+  
+  Clears all the input fields and resets the form.
