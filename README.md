@@ -36,15 +36,16 @@ This project is a user registration page built with React. It includes form vali
    cd registration-page
 2. **Install dependencies:**
 
-  '''sh
+  ```sh
   npm install
 
 3. **Run the application:**
-  '''sh
+  ```sh
   npm start
+
 The application will be available at http://localhost:3000.
 
-Usage
+### **Usage**
 Fill in the registration form with your information.
 If any fields are invalid, error messages will be displayed in real-time.
 Once all fields are filled correctly, click the "Submit" button to register.
@@ -68,7 +69,7 @@ Payload:
   "password": "mysecretpassword"
 }
  
-**Usage**
+### **Usage**
   Fill in the registration form:
 
   Full Name
