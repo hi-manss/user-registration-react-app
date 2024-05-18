@@ -1,10 +1,6 @@
 # React Registration Page
 
 This project is a user registration page built with React. It includes form validation and interacts with a backend API to create users. The form collects user information such as full name, contact number, email, date of birth, and password.
-![User Registration Page Screenshot]
-![image](https://github.com/hi-manss/user-registration-react-app/assets/101518009/bc746194-ea7f-4486-a4af-4b80f5471866)
-![image](https://github.com/hi-manss/user-registration-react-app/assets/101518009/72314ff7-d972-42f5-9e89-a98696a28dc5)
-
 
  
 ## Features
@@ -47,11 +43,14 @@ The application will be available at http://localhost:3000.
 
 ### **Usage**
 Fill in the registration form with your information.
-If any fields are invalid, error messages will be displayed in real-time.
-Once all fields are filled correctly, click the "Submit" button to register.
-If the registration is successful, a success message will be displayed.
+
+ If any fields are invalid, error messages will be displayed in real-time.
+  Once all fields are filled correctly, click the "Submit" button to register.
+    If the registration is successful, a success message will be displayed.
+
+    
 API Integration
-The registration form submits user data to a backend API endpoint for registration:
+   The registration form submits user data to a backend API endpoint for registration:
 
 Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
 
@@ -87,4 +86,11 @@ Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
    If there are any errors, they will be displayed on the form and a toast notification will be shown.
   
   Cancel the form:
+   
       Clears all the input fields and resets the form.
+      
+
+###Screenshots
+![image](https://github.com/hi-manss/user-registration-react-app/assets/101518009/bc746194-ea7f-4486-a4af-4b80f5471866)
+![image](https://github.com/hi-manss/user-registration-react-app/assets/101518009/72314ff7-d972-42f5-9e89-a98696a28dc5)
+
