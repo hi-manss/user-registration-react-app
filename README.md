@@ -54,8 +54,10 @@ API Integration
 The registration form submits user data to a backend API endpoint for registration:
 
 Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
-Method: POST
-Payload:
+
+ Method: POST
+
+ Payload:
 
     
         {
