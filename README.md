@@ -36,12 +36,12 @@ This project is a user registration page built with React. It includes form vali
    cd registration-page
 2. **Install dependencies:**
 
-  ```sh
-  npm install
+   ```sh
+   npm install
 
 3. **Run the application:**
-  ```sh
-  npm start
+   ```sh
+   npm start
 
 The application will be available at http://localhost:3000.
 
@@ -56,19 +56,19 @@ The registration form submits user data to a backend API endpoint for registrati
 Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
 Method: POST
 Payload:
- ```yaml
-{
-  "full_name": "John Doe",
-  "contact_number": "1234567890",
-  "email": "johndoe@example.com",
-  "date_of_birth": {
-    "day": "15",
-    "month": "04",
-    "year": "1990"
-  },
-  "password": "mysecretpassword"
-}
- 
+    ```yaml
+        {
+          "full_name": "John Doe",
+          "contact_number": "1234567890",
+          "email": "johndoe@example.com",
+          "date_of_birth": {
+            "day": "15",
+            "month": "04",
+            "year": "1990"
+          },
+          "password": "mysecretpassword"
+        }
+         
 ### **Usage**
   Fill in the registration form:
 
