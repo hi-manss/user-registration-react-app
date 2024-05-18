@@ -1,0 +1,131 @@
+/* Base styles */
+.registration-container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2px;
+  color: #333;
+}
+
+.registration-form .form-group {
+  margin-bottom: 5px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: 89%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.alert {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Birth date fields */
+.birth-date-fields {
+  display: flex;
+}
+
+.birth-date-fields select {
+  flex: 1;
+  padding: 12px;
+  margin-right: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+/* Birth date fields container */
+.birth-date-fields {
+  display: flex;
+  /* border: 1px solid #ccc; Add border */
+  border-radius: 5px; /* Add border radius */
+  padding: 10px; /* Add padding */
+}
+
+/* Date select fields */
+.birth-date-fields select {
+  flex: 1;
+  padding: 8px; /* Adjust padding */
+  margin-right: 10px;
+  border: none; /* Remove border */
+  background-color: transparent; /* Transparent background */
+  font-size: 16px;
+}
+
+/* Adjust focus style for date select fields */
+.birth-date-fields select:focus {
+  outline: none;
+}
+
+.com {
+  border: 1px solid red;
+}
+.btnDiv {
+  position: absolute;
+  bottom: -60px;
+  left: 90px;
+}
+
+.canBtn {
+  background: transparent;
+  color: #127c95;
+  padding: 10px 35px;
+  outline: none;
+  border: 2px solid #127c95;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.subBtn {
+  background: #127c95;
+  color: white;
+  padding: 10px 35px;
+  outline: none;
+  border: 2px solid #127c95;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
