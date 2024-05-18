@@ -57,7 +57,7 @@ Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
 Method: POST
 Payload:
 
-    ```yaml
+    
         {
           "full_name": "John Doe",
           "contact_number": "1234567890",
@@ -73,16 +73,16 @@ Payload:
 ### **Usage**
   Fill in the registration form:
 
-  Full Name
-  Contact Number
-  Email
-  Date of Birth (Day, Month, Year)
-  Password
-  Confirm Password
-  Submit the form:
+    Full Name
+    Contact Number
+    Email
+    Date of Birth (Day, Month, Year)
+    Password
+    Confirm Password
+    Submit the form:
 
-  If the form is correctly filled, a success message will be shown.
-  If there are any errors, they will be displayed on the form and a toast notification will be shown.
-  Cancel the form:
+   If the form is correctly filled, a success message will be shown.
+   If there are any errors, they will be displayed on the form and a toast notification will be shown.
   
-  Clears all the input fields and resets the form.
+  Cancel the form:
+      Clears all the input fields and resets the form.
