@@ -56,6 +56,7 @@ The registration form submits user data to a backend API endpoint for registrati
 Endpoint: https://fullstack-test-navy.vercel.app/api/users/create
 Method: POST
 Payload:
+
     ```yaml
         {
           "full_name": "John Doe",
